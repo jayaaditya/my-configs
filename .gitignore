@@ -1,0 +1,4 @@
+# ignore all dirs
+*
+!i3/
+!nvim/
