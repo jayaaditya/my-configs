@@ -65,7 +65,10 @@ nnoremap <M-Left> <C-w>h
 nnoremap <M-Down> <C-w>j
 nnoremap <M-Up> <C-w>k
 nnoremap <M-Right> <C-w>l
+map <M-S-Right> <C-PageDown>
+map <M-S-Left> <C-PageUp>
 set nocompatible
+nnoremap <F3> :set hlsearch!<CR>
 
 "NerdTree Settings
 autocmd StdinReadPre * let s:std_in=1
@@ -80,9 +83,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 set splitbelow
-
-"YCM Settings
-let g:ycm_python_binary_path='/usr/bin/python'
 
 "vim-airline"
 let g:airline#extensions#tabline#enabled = 1
